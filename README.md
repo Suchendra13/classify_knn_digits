@@ -50,26 +50,26 @@ The following steps were performed to build and evaluate the KNN model:
   
 ## 5. Results
 
-The Support Vector Machine model achieved the following performance on the test set:
-* **KNN Accuracy** : `0.9806`
+The K Nearest Neighbour model achieved the following performance on the test set:
+* **KNN Accuracy** : `0.9889`
 
-Classification Report (SVM):
+Classification Report of KNN:
                precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        36
-           1       0.97      1.00      0.99        37
-           2       1.00      0.97      0.99        35
-           3       1.00      0.97      0.99        37
-           4       1.00      0.94      0.97        36
-           5       0.97      1.00      0.99        36
-           6       1.00      0.97      0.99        36
-           7       0.97      0.97      0.97        36
-           8       0.95      1.00      0.97        35
-           9       0.95      0.97      0.96        36
+           0       1.00      1.00      1.00        32
+           1       0.97      1.00      0.98        32
+           2       1.00      1.00      1.00        40
+           3       1.00      0.97      0.99        39
+           4       0.97      1.00      0.98        30
+           5       0.98      1.00      0.99        44
+           6       1.00      1.00      1.00        41
+           7       0.97      0.97      0.97        38
+           8       1.00      0.97      0.98        31
+           9       1.00      0.97      0.98        33
 
-    accuracy                           0.98       360
-   macro avg       0.98      0.98      0.98       360
-weighted avg       0.98      0.98      0.98       360
+    accuracy                           0.99       360
+   macro avg       0.99      0.99      0.99       360
+weighted avg       0.99      0.99      0.99       360
 
 The confusion matrix visually confirms the model's performance, showing high counts along the diagonal (correct predictions) and low counts off-diagonal (misclassifications).
 
@@ -90,8 +90,8 @@ To execute this Jupyter Notebook:
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone [https://github.com/Suchendra13/Digits_ML_classify_svm.git](https://github.com/Suchendra13/Digits_ML_classify_svm.git)
-    cd Digits_ML_classify_svm
+    git clone [https://github.com/Suchendra13/classify_knn_digits.git](https://github.com/Suchendra13/classify_knn_digits.git)
+    cdclassify_knn_digits
     ```
 2.  **Ensure you have Jupyter Notebook installed** or use a compatible IDE (e.g., VS Code with Jupyter extensions).
 3.  **Install the required Python libraries**:
@@ -100,7 +100,7 @@ To execute this Jupyter Notebook:
     ```
 4.  **Open the Jupyter Notebook**:
     ```bash
-    jupyter notebook Digits_SVM.ipynb
+    jupyter notebook Digits_KNN.ipynb
     ```
 5.  **Run all cells** in the notebook.
 
