@@ -14,7 +14,7 @@
 9. [Acknowledgements](#acknowledgements)
 
 ## 1. Project Overview
-      The primary goal of this project is to classify the digits using K Nearest Classifier model.
+The primary goal of this project is to classify the digits using K Nearest Classifier model.
 
 ## 2. Dataset
 This project uses the `load_digits` dataset available in `sklearn.datasets`.
