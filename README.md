@@ -1,5 +1,5 @@
 # Handwritten Digits Classification by K-Nearest Neighbours ( KNN ) Model.
- This project demonstrates the process of classifying the digits ( 0-9 ) using a Support Vector Machine Model . It utilizes the `load_digits` dataset which is a standard dataset used for basic and practical applications of machine learning for beginners. 
+ This project demonstrates the process of classifying the digits ( 0-9 ) using a Support Vector Machine Model . It utilizes the `load_digits` dataset which is a standard dataset used for basic and practical applications of machine learning. 
  
 # Contents
 
@@ -114,4 +114,4 @@ To execute this Jupyter Notebook:
 
 ## 9. Acknowledgements
 
-* The `load_digits` dataset is provided by scikit-learn.
+* The `load_digits` dataset is provided by scikit-learn which is a standard dataset used for machine learning purposes.
